@@ -1,0 +1,413 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url(/FONTS/Satoshi/TTF/Satoshi-Variable.ttf);
+}
+
+@font-face {
+  font-family: "Clash-Display";
+  src: url(/FONTS/ClashDisplay/TTF/ClashDisplay-Variable.ttf);
+}
+
+:root {
+
+  --pink-black: #22202E;
+  --pink-gray: #726E8D;
+  --gray: #F9F9F9;
+  --violet: #2A254B;
+}
+
+* {
+
+  font-family: "Clash-Display";
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+
+  max-width: 1280px;
+  margin: 0 auto; 
+
+}
+
+
+/* Header */
+
+.header {
+
+  
+
+}
+
+.header .container{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1440px;
+
+}
+
+.header h1 {
+
+  padding: 25px 152px 25px 80px;
+
+  color: var(--pink-black);
+  font-size: 24px;
+
+}
+
+.header-nav {
+
+  padding-right: 308px;
+
+}
+
+.header-nav a {
+
+  color: var(--pink-gray);
+  text-decoration: none;
+  padding-right: 44px;
+
+  font-family: "Satoshi";
+}
+
+.header-nav a:last-of-type {
+
+  padding: 0;
+
+}
+
+.header-icons {
+
+
+}
+
+.header-icons a{
+
+  padding-right: 16px;
+
+}
+
+
+.header-icons a:last-of-type {
+
+  padding: 0;
+
+}
+
+
+
+/* Product */
+
+
+.product .container {
+
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+
+
+.product-info {
+
+  padding: 51px 60px;
+
+}
+
+.description {
+
+  padding-bottom: 23px;
+
+}
+
+
+.description h1 {
+
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 13px;
+
+}
+
+.description h3 {
+
+  font-size: 24px;
+  padding-bottom: 54px;
+  
+}
+
+.description ul {
+
+  padding-top: 20px;
+  padding-left: 30px;
+
+}
+
+.description p, ul, h3 {
+
+  font-family: "Satoshi";
+  margin: 0;
+
+}
+
+.dis {
+
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.dimensions {
+  width: 240px;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 22px;
+}
+
+.dimensions p {
+
+  color: #505977;
+  font-family: "Satoshi";
+}
+
+.dimensions h4 {
+
+  padding-bottom: 12px;
+
+}
+
+
+.amount {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.quantity {
+
+  display: flex;
+  align-items: center;
+
+}
+
+.quantity h3 {
+
+  padding-right: 22px;
+
+}
+
+.quantity input {
+
+  width: 32px;
+  padding: 12px 9px;
+
+  outline: none;
+
+  border: none;
+  background-color: var(--gray);
+  text-align: center;
+  font-family: "Satoshi";
+
+}
+
+
+.quantity button {
+
+  cursor: pointer;
+
+  padding: 12px 16px;
+
+  font-family: "Satoshi";
+
+  border: none;
+  background-color: var(--gray);
+
+  color: #CAC6DA;
+
+}
+
+
+.amount a{
+
+  padding: 16px 32px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: var(--violet);
+
+}
+
+.amount {
+
+  padding: 27px 0px;
+
+}
+
+/* Ceramics  */
+
+
+.ceramics {
+  color: #2a254b;
+
+  padding-bottom: 56px;
+}
+
+.ceramics h1 {
+  font-size: 32px;
+
+  padding: 80px 0 33px 0px;
+}
+
+.ceramics-item {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 45px ;
+}
+
+.ceramics-item h3 {
+
+  padding: 10px 0px;
+
+}
+
+.ceramics a {
+  text-decoration: none;
+  padding: 16px 32px;
+
+  background-color: #f9f9f9;
+
+  position: relative;
+
+  left: 43.5%;
+}
+
+
+/* Different */
+
+.different {
+  color: #2a254b;
+  text-align: center;
+}
+
+.different h1 {
+  font-size: 24px;
+  padding-top: 100px;
+  padding-bottom: 51px;
+}
+
+.diffrent-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.diffrent-items div {
+  text-align: left;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2a254b;
+}
+
+.footer .container {
+  max-width: 1480px;
+}
+
+.footer-info {
+  display: flex;
+
+  border-bottom: 1px solid #4e4d93;
+
+  padding: 72px 100px 54px 84px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  padding-right: 109px;
+
+  
+}
+
+.footer-nav a {
+  font-family: "Satoshi";
+
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+
+  opacity: 0.5;
+  padding-bottom: 12px;
+}
+
+.footer-nav h3 {
+  color: #ffffff;
+  padding-bottom: 12px;
+  opacity: 0.8;
+}
+
+
+.footer-last {
+  color: #ffffff;
+
+  padding: 25px 0;
+
+  margin: 0;
+
+  opacity: 0.8;
+}
+
+
+.footer_join input {
+
+  padding: 16px 32px;
+  background-color: #4A4666;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+
+}
+
+
+.footer-join h3 {
+  padding-bottom: 16px;
+  color: #FFFFFF;
+  opacity: 0.8;
+
+}
+
+.footer_join button {
+
+  position: relative;
+  left: -5px;
+  padding: 16px 32px;
+  border: none;
+  background-color: #ffffff;
+  color: #2A254B;
+  font-size: 16px;
+
+  cursor: pointer;
+}

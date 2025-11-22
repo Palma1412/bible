@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../JS/admin-panel-products.js" defer></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <button id="button-product">Add product</button>
+
+
+    <div id="myModal" class="modal" >
+        <div class="modal-content" id="product-form">
+            <div><span class="close">&times;</span></div>
+            <h2>Окно для добавления товара</h2>
+            <input placeholder="name" id="name"/>
+            <input placeholder="price" id="price"/>
+            <input placeholder="description" id="description"/>
+            <input placeholder="height" id="height"/>
+            <input placeholder="width" id="width" />
+            <input placeholder="depth" id="depth" />
+            <input type="file" placeholder="image" id="image" />
+            <button class="add" id="addddddd">Add product</button>
+        </div>
+    </div>
+
+     <div id="changeModal" class="modal" >
+        <div class="modal-content" id="product-form">
+            <div><span class="closeId">&times;</span></div>
+            <h2>Окно для изменения товара</h2>
+            <input placeholder="id" id="id"/>
+            <input placeholder="name" id="name"/>
+            <input placeholder="price" id="price"/>
+            <input placeholder="description" id="description"/>
+            <input placeholder="height" id="height"/>
+            <input placeholder="width" id="width" />
+            <input placeholder="depth" id="depth" />
+            <input type="file" placeholder="image" id="image" />
+            <button class="add" id="aDD">Change</button>
+        </div>
+    </div> 
+
+    <div class="productMain" id="product-main">
+        
+    </div>
+</body>
+</html>

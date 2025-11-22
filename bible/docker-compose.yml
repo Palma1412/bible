@@ -1,0 +1,20 @@
+services:
+  admin-panel:
+    container_name: admin-panel
+    restart: always
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+      network: host
+    volumes:
+      - ./project:/var/www
+    ports:
+      - "8012:8000"
+    networks:
+      - backend-network
+
+
+networks:
+  backend-network:
+#    external: true
+    driver: bridge
